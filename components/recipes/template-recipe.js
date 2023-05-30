@@ -12,7 +12,7 @@ class TemplateRecipe extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-        <link rel="stylesheet" href="../css/recipe.css">
+        <link rel="stylesheet" href="./css/recipe.css">
 
         <div class='container_recipe'>
           <div class='top_shape'>s</div>

@@ -5,7 +5,7 @@ class Menu extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-        <link rel="stylesheet" href="../css/menu-full.css">
+        <link rel="stylesheet" href="./css/menu-full.css">
 
         <div class='container_menu'>
           <div class='logo'>COLORFUL ASSET LOGO</div>
