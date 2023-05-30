@@ -20,7 +20,7 @@ class TemplateRecipe extends HTMLElement {
           <div class='title_recipe'>` + this.recipe_name + `</div>
           <div class='desc_recipe'><div>` + this.recipe_desc + `</div></div>
           <div class='arrow_container'>
-            <img class='arrow' src='../assets/arrow.png'></img>
+            <img class='arrow' src='./assets/arrow.png'></img>
             <img class='food_img' src='` + this.main_image_src + `'></img>
             <img class='ingredient_img' src='` + this.ingredient_image_src + `'></img>
           </div>
