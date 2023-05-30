@@ -1,0 +1,32 @@
+.container_menu {
+    position: relative;
+    display: flex;
+    left: 0;
+    top: 0;
+
+    justify-content: flex-end;
+
+    background-color: white;
+
+    width: 100%;
+    height: fit-content;
+}
+
+.item {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 18px 20px 18px 20px;
+}
+
+.logo {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    left: 0;
+
+    height: 100%;
+    width: 300px;
+}

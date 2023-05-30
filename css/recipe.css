@@ -1,0 +1,120 @@
+.container_recipe {
+    position: relative;
+
+    width: 100%;
+
+    height: 300vh;
+    overflow: hidden;
+}
+
+.container_instructions {
+    color: rgb(109, 36, 145);
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin:  0 auto;
+    height: 800px;
+    top: 800px;
+}
+
+.ingredients > .title, .instructions > .title {
+    font-weight: bold;
+    font-size: 28px;
+    font-family: myFirstFont;
+}
+
+.ingredients > ul, .instructions > ol {
+    font-size: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.ingredients {
+    width: 35%;
+}
+
+.instructions {
+    width: 65%;
+}
+
+
+.top_shape {
+    position: absolute;
+    background-color: rgba(192, 144, 199, 0.619);
+    width: 140%;
+    height: 1300px;
+    z-index: -1;
+    top: -500px;
+    left: -450px;
+    transform: rotate(-25deg);
+}
+
+.bot_shape {
+    position: absolute;
+    background-color: rgba(192, 144, 199, 0.619);
+    background: rgb(249,209,255);
+    background: linear-gradient(37deg, rgba(249,209,255,1) 1%, rgba(192,144,199,1) 41%);
+    width: 140%;
+    height: 1300px;
+    z-index: -1;
+    top: 2300px;
+    left: -450px;
+    transform: rotate(25deg);
+}
+
+.title_recipe {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: left !important;
+    text-align: center;
+    word-wrap: break-word;
+    font-weight: bolder;
+    font-size: 220px;
+    font-family: myFirstFont;
+    color: rgb(109, 36, 145);
+}
+
+.desc_recipe {
+    width: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.desc_recipe > div {
+    width: 40%;
+    font-size: 20px;
+    color: rgb(109, 36, 145);
+}
+
+.arrow_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.arrow_container > .arrow {
+    position: absolute;
+    width: 200px;
+    left: 650px;
+    filter: invert(7%) sepia(88%) saturate(6804%) hue-rotate(268deg) brightness(100%) contrast(98%);
+}
+
+.food_img {
+    position: absolute;
+    left: 700px;
+    top: 100px;
+    width: 1100px;
+}
+
+.ingredient_img {
+    position: absolute;
+    left: 200px;
+    top: 950px;
+}
+
+@font-face {
+    font-family: 'myFirstFont';
+    src: url("../assets/fonts/PotteryWheelRegular-MVERJ.ttf");
+  }
